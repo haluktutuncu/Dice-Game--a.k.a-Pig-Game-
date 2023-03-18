@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+          <div class="posAbs">
+            <button class="btn Ngame">New Game</button>
+            <div>
+              <span><img src="/dice-1.png" alt="" /></span>
+            </div>
+            <button class="btn dice">🎲 Roll Dice</button>
+            <button class="btn hold">Hold</button>
+          </div>
+      <section class="container2">
+          <main class="left bckturn1 player--0" >
+            <div class="align-one">
+                <h1 class="name">PLAYER 1</h1>
+                <span id="score0" class="number one name">0</span>
+                <div class="box ">
+                  <h2 >Current</h2>
+                  <span class="number two last " id="current0">0</span>
+                </div>
+            </div>
+      </main>
+      <main class="right player--1">
+            <div class="align-two">
+              <h1 class="name">PLAYER 2</h1>
+             <span id="score1"class="number one name ">0</span>
+            <div class="box">
+                  <h2>Current</h2>
+                  <span class ="number two last" id="current1">0</span>
+            </div>
+        </section>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
